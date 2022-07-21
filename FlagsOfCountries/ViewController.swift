@@ -21,7 +21,7 @@ class ViewController: UITableViewController {
         let items = try! fm.contentsOfDirectory(atPath: path)
         
         for item in items{
-            if item.hasSuffix("@3x.png"){
+            if item.hasSuffix("@2x.png"){
                 flags.append(item)
             }
         }
